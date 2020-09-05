@@ -1,0 +1,4 @@
+(coq.theory
+ (name sflib)
+ (modules sflib)
+ (package coq-snu-sflib))
