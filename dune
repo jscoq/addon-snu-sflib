@@ -4,7 +4,7 @@
  (deps
   (package coq-snu-sflib))
  (action
-  (run %{env:pkgtool=jscoq} build workdir --top sflib
+  (run npx %{env:pkgtool=jscoq} build workdir --top sflib
        --package coq-pkgs/snu-sflib.coq-pkg)))
 
 (alias
